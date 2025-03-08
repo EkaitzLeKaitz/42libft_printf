@@ -3,11 +3,37 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sagnzal <sagonzal@student.42madrid>        +#+  +:+       +#+        */
+/*   By: sagonzal <sagonzal@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/28 18:49:08 by sagnzal           #+#    #+#             */
-/*   Updated: 2024/03/28 18:49:12 by sagnzal          ###   ########.fr       */
+/*   Created: 2025/03/08 18:05:21 by sagonzal          #+#    #+#             */
+/*   Updated: 2025/03/08 18:06:53 by sagonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+#include "ft_printf.h"
+#include <stdio.h>
+
+
+static  void    ft_putchar(int c)
+{
+    c = 4;
+}
+
+int ft_printf(char const *format, ...)
+{
+	int	i;
+	int	j;
+	char	*str;
+	char	b;
+
+	b = 'a';
+
+	str = "hola mundo";
+
+	j = 10;
+	i = ft_putchar()
+	printf("shdkjfjhfkgjh %i %d %s %c", j, j, str, b);
+    
+}
 
